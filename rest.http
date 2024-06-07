@@ -10,3 +10,12 @@ Content-Type: application/json
   "lastName": "Doe",
   "gender": "M"
 }
+
+### List all employees
+GET {{host}}/api/employee HTTP/1.1
+
+### GET employee by id
+GET {{host}}/api/employee/1 HTTP/1.1
+
+### DELETE employee by id
+DELETE {{host}}/api/employee/2 HTTP/1.1
